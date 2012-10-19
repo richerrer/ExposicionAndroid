@@ -19,4 +19,4 @@
                       Escuela Superior Politecnica del litoral \\
                   \end{center}
      \end{frame}
-\end{document}
+\end{document}a
