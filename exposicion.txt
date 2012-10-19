@@ -1,0 +1,22 @@
+\documentclass[xcolor=dvipsnames]{beamer}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+
+\usecolortheme[named=Green]{structure}
+\usetheme{Berlin}
+
+\title{OUR FIRST ANDROID PROYECT}
+\author{Raul Mira \\ Jose Romero \\ Ricardo Maya}
+
+\begin{document}
+     \begin{frame}
+            \includegraphics[height=0.2\textheight]{C:/Users/Ricardo/Documents/beamer/espol} \hspace*{7.3cm}
+             \includegraphics[height=0.22\textheight]{C:/Users/Ricardo/Documents/beamer/android}  
+            \titlepage
+            \scriptsize
+                 \begin{center}
+                     Sitemas Multimedia \\
+                      Escuela Superior Politecnica del litoral \\
+                  \end{center}
+     \end{frame}
+\end{document}
