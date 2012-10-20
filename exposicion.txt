@@ -1,17 +1,19 @@
-\documentclass[xcolor=dvipsnames]{beamer}
-\usepackage[spanish]{babel}
-\usepackage[utf8]{inputenc}
+\documentclass{beamer}
+\usepackage[spanish]{babel} % Para separar correctamente las palabras
+\usepackage[utf8]{inputenc} % Este paquete permite poner acentos y eñes usando codificación utf-8
 
-\usecolortheme[named=Green]{structure}
 \usetheme{Berlin}
-
-\title{OUR FIRST ANDROID PROYECT}
+\title{LIKEIT APP}
 \author{Raul Mira \\ Jose Romero \\ Ricardo Maya}
 
+
+
+%Comienzo del documento
+
 \begin{document}
-     \begin{frame}
+  \begin{frame}
             \includegraphics[height=0.2\textheight]{C:/Users/Ricardo/Documents/beamer/espol} \hspace*{7.3cm}
-             \includegraphics[height=0.22\textheight]{C:/Users/Ricardo/Documents/beamer/android}  
+             \includegraphics[height=0.22\textheight]{C:/Users/Ricardo/Documents/beamer/android}
             \titlepage
             \scriptsize
                  \begin{center}
@@ -19,4 +21,47 @@
                       Escuela Superior Politecnica del litoral \\
                   \end{center}
      \end{frame}
-\end{document}a
+	 
+  \begin{frame}
+    
+   
+    
+    \scriptsize
+    
+    \begin{center}
+      APLICACION PARA ANDROID \\
+      LIKEIT App \\
+    \end{center}
+    
+    
+    La aplicacion LIKEIT APP que sera desarrollada para ser ejecutada en dispositivos Android, es una aplicacion que permite capturar y consultar tus mejores lugares favoritos, seleccionarlos por categorias como entretenimiento, comida, salud, etc, e incluso echarle un vistazo a los destinos guardados en tu GPS
+    Utilidad .- Recordar y grabar algun sitio que te haya gustado y volver con facilidad a el.
+    
+  \end{frame}
+  
+   \begin{frame}
+      
+     
+      \scriptsize
+      
+      \begin{center}
+        CARACTERISTICAS GENERALES\\
+      \end{center}
+      
+      \begin{enumerate}
+      \item<1-> Plataforma .- Android
+      \item<1-> Lenguaje .- Java.
+      \item<1-> Version No. 1
+      \item<1-> Uso de camara dispositivo Android
+      \item<1-> GPS Global Positioning System, google maps
+      \item<1-> Tiempo de desarrollo .- aprox. 8 semanas
+      \item<1-> Programas a utilizar .- Eclipse IDE for Java developers
+      \item<1-> Android SDK (android 2.1)
+      \item<1-> Idioma{\tiny } Espanol
+     \end{enumerate}
+      
+    \end{frame}
+  
+    
+  
+\end{document}
