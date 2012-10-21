@@ -65,3 +65,34 @@
     
   
 \end{document}
+
+
+
+ \begin{frame}
+        \scriptsize
+         \begin{center}
+                \textcolor{red}{OBJETIVOS}
+         \end{center}
+        \textcolor{blue}{OBJETIVOS PARA EL USARIO:\\}
+          \begin{enumerate}
+      \item<1-> Ahorro de tiempo  al propietario de un dispositivo Android para poder escojer y guardar confiablemente un sitio agradable por medio de la aplicacion .
+       \item<1-> Facilitar el manejo de una aplicacion con elementos concretos y especificos para el funcionamiento para el cual fue diseñado.
+       \end{enumerate}
+      \textcolor{blue}{OBJETIVOS PARA EL DESARROLLADOR:\\}
+          \begin{enumerate}
+      \item<1-> Poder conocer más a fondo el uso de un nuevo sistema operativo, situandonos en el puesto de desarrolladores y dejando a un lado el de usuario.
+       \item<1->Tener una idea de como resolver algun problema en el ámbito laboral en el cual nos toque desempeñarnos.
+     \end{enumerate}
+   \end{frame}
+    
+  \begin{frame}
+       \scriptsize
+        \begin{center}
+                 \textcolor{red}{IMPLEMENTACION DE LA APLICACION\\}
+         \end{center}
+          \textcolor{blue}{1.}
+          El usuario debe encontrase en el sitio para así­ poder guardarla en la aplicación.
+           \begin{center}
+                  \includegraphics[height=0.5\textheight]{C:/Users/Ricardo/Documents/beamer/romans} 
+         \end{center}
+  \end{frame}
