@@ -1,17 +1,19 @@
-\documentclass[xcolor=dvipsnames]{beamer}
-\usepackage[spanish]{babel}
-\usepackage[utf8]{inputenc}
+\documentclass{beamer}
+\usepackage[spanish]{babel} % Para separar correctamente las palabras
+\usepackage[utf8]{inputenc} % Este paquete permite poner acentos y e?es usando codificaci?n utf-8
 
-\usecolortheme[named=Green]{structure}
 \usetheme{Berlin}
-
-\title{OUR FIRST ANDROID PROYECT}
+\title{MaxSec APP}
 \author{Raul Mira \\ Jose Romero \\ Ricardo Maya}
 
+
+
+%Comienzo del documento
+
 \begin{document}
-     \begin{frame}
+  \begin{frame}
             \includegraphics[height=0.2\textheight]{C:/Users/Ricardo/Documents/beamer/espol} \hspace*{7.3cm}
-             \includegraphics[height=0.22\textheight]{C:/Users/Ricardo/Documents/beamer/android}  
+             \includegraphics[height=0.22\textheight]{C:/Users/Ricardo/Documents/beamer/android}
             \titlepage
             \scriptsize
                  \begin{center}
@@ -19,4 +21,108 @@
                       Escuela Superior Politecnica del litoral \\
                   \end{center}
      \end{frame}
-\end{document}a
+
+  \begin{frame}
+    
+   
+    
+    \scriptsize
+    
+    \begin{center}
+       \textcolor{blue}{APLICACION PARA ANDROID \\}
+      MaxSec App \\
+    \end{center}
+    
+    
+    MaxSec APP ,es una aplicacion antirrobo para tu smartphone que incluye una alarma. Cuando alguien intente robar tu celular, la aplicación al detectar el movimiento del movil,
+pedira una contraseña que tu habras definido y que en caso de no ser ingresada correctamente en un corto lapso de tiempo, comenzara a sonar una ruidosa alarma y
+enviara la posicion geografica adjunto una fotografia de el lugar o persona donde ocurre el incidente (robo), y tambien un correo electronico a un familiar indicando lo sucedido
+    
+  \end{frame}
+  
+   \begin{frame}
+      
+       \begin{center}
+        \textcolor{blue}{OBJETIVOS\\}
+       \end{center}
+
+     \begin{enumerate}
+      \item<1-> Evitar que alguien coja tu telefono sin tu permiso (familiar ,amigo bromista)
+      \item<1-> Evitar el robo de tu dispositivo mediante una alarma sensible al movimiento
+      \item<1-> Llamar la atencion a la gente de alrededor en caso que suceda
+      \end{enumerate}
+     \end{frame}   
+
+      \scriptsize
+    \begin{frame}
+      \begin{center}
+       \textcolor{blue}{ CARACTERISTICAS GENERALES\\}
+      \end{center}
+      
+      \begin{enumerate}
+      \item<1-> Plataforma .- Android
+      \item<1-> Lenguaje .- Java.
+      \item<1-> Version No. 1
+      \item<1-> Uso de camara dispositivo Android
+      \item<1-> GPS Global Positioning System
+      \item<1-> Activacion mediante el Acelerometro
+      \item<1-> Tiempo de desarrollo .- aprox. 5 semanas
+      \item<1-> Programas a utilizar .- Eclipse IDE for Java developers
+      \item<1-> Android SDK (android 2.1)
+      \item<1-> Idioma{\tiny } Espanol
+     \end{enumerate}
+      
+    \end{frame}
+  
+  \begin{frame}
+       \scriptsize
+        \begin{center}
+                 \textcolor{red}{IMPLEMENTACION DE LA APLICACION\\}
+         \end{center}
+          \textcolor{blue}{1.}
+          El ususrio deberá abrir su aplicacón siempre y cuando crea que dejará solo su dispositivo.
+           \begin{center}
+                  \includegraphics[height=0.3\textheight]{C:/Users/Ricardo/Documents/beamer/dispositivo} 
+         \end{center}
+
+        \textcolor{blue}{2.}
+          El dispositivo dejará un margen de 15 segundos a partir de iniciar la aplicación para poder proceder con su funcionabilidad.
+           \begin{center}
+                  \includegraphics[height=0.4\textheight]{C:/Users/Ricardo/Documents/beamer/acelerometro} 
+         \end{center}
+  \end{frame}
+
+\begin{frame}
+       \scriptsize
+        
+          \textcolor{blue}{3.}
+          En el momento que alguien desee hacer uso de este dispositivo mientras corre la aplicación, se lanzará una imagen de desbloqueo.
+           \begin{center}
+                  \includegraphics[height=0.3\textheight]{C:/Users/Ricardo/Documents/beamer/desbloqueo} 
+         \end{center}
+
+        \textcolor{blue}{4.}
+         Al encontrarse inactivo el celular durante 3 segundos o colocar mal su código de desbloqueo, este lanzará una alarma.
+           \begin{center}
+                  \includegraphics[height=0.4\textheight]{C:/Users/Ricardo/Documents/beamer/alarma} 
+         \end{center}
+  \end{frame}
+    
+\begin{frame}
+       \scriptsize
+   \textcolor{blue}{5.}
+        Seguido de tomar una foto del lugar en donde se efectua, como tambien capturando el lugar por medio del gps.
+            \begin{center}
+                \includegraphics[height=0.3\textheight]{C:/Users/Ricardo/Documents/beamer/camara}\ \ \ \
+ \includegraphics[height=0.3\textheight]{C:/Users/Ricardo/Documents/beamer/gps}
+            \end{center}
+
+        \textcolor{blue}{6.}
+        Finalizando con el envio de esta información a algun correo deseado por el usario anteriormente.
+           \begin{center}
+                  \includegraphics[height=0.4\textheight]{C:/Users/Ricardo/Documents/beamer/correo} 
+         \end{center}
+  \end{frame}
+    
+  
+\end{document}
