@@ -1,0 +1,94 @@
+% !TeX spellcheck = en_GB
+\documentclass[12pt,letterpaper]{article}
+
+\usepackage[right=2cm,left=3cm,top=2cm,bottom=2cm,headsep=0cm,footskip=0.5cm]{geometry}
+\usepackage[dvips]{graphicx}
+\usepackage{graphicx}
+\usepackage[spanish]{babel} % Para separar correctamente las palabras
+\usepackage[utf8]{inputenc} % Este paquete permite poner acentos y e?es usando codificaci?n utf-8
+
+\begin{document}
+
+\section{Título del proyecto:  MaxSec App}
+\subsection{Autores} 
+
+	* Mira Rodríguez Raúl Alberto
+	
+	* Romero Triviño Jose Andrés
+	
+	* Maya Herrera Ricardo David
+
+\subsection{Introduccion} 
+
+A muchos de nosotros seguramente nos ha pasado que nos descuidamos de nuestro telefono celular por un momento, y debido a distintos factores alguna persona lo toma sin nuestro permiso; ya sea algun familiar, o algun compañero de clases que nos quiso jugar una broma. O por el contrario nuestro celular lo pudo haber tomado alguno de los tan populares hoy en dia "amigos de lo ajeno" que se aprovechan del primer descuido para sustraerse algun articulo de valor.
+Pues nuestra aplicacion movil MaxSec fue pensada precisamente para situacion como las anteriormente nombradas.
+
+   \subsection{Funcionalidades} 
+   \begin{itemize}
+   \item Sonido de alerta: 
+   
+   MaxSec contara con una sonido de alarma que nos permitira darnos cuenta cuando nuestro celular sea tomado sin permiso (utilizando el acelerometro), ésto para casos en los cuales la persona que tomo nuestro celular permaneciera en un rango de distancia que nos permitiera escuchar dicho sonido de alarma.
+   
+   \item Localización por GPS del dispositivo:
+   
+   Pero existen otras situaciones en las cuales por alguna razon ya no alcanzamos a escuchar el sonido de alarma, ya sea porque hay mucho ruido en el lugar en el que estamos (ejemplo: una discoteca, un estadio de futbol); o porque la persona que tomo nuestro celular se alejo rapidamente del lugar en el que nosotros estamos, o por el contrario nosotros olvidamos en algun sitio nuestro celular y al momento que una persona lo toma ya no estamos cerca de él.
+   
+   Para casos como estos utilizando el GPS del celular, nuestra aplicacion nos permitira conocer las coordenadas exactas en las que se encuentra nuestro telefono en el momento en el que éste es tomado.
+   
+   \item Fotografía en el instante de la alerta:
+   
+   Aparte de las funcionalidades ya mencionadas anteriormente, MaxSec tambien tomara una fotografia con la camara del celular (tambien se tomara una fotografia con la camara frontal en el caso de que el dispositivo cuente ella) en el momento en que suene la alarma, esto para el caso en el que podamos distinguir algo de lo que aparesca en la fotografia, ya sea algun lugar especifico o en el mejor de los casos algun rostro.
+   
+   \item Notificación por correo electrónico:
+   
+   Luego de haber recopilado la informacion antes mencionada (las coordenadas por GPS, la fotografia), el usuario podra tener acceso a ella ya que ésta sera enviada por medio de un correo electronico a la direccion indicada en la configuracion inicial de la aplicacion.
+   
+    
+   \end{itemize}
+   
+   
+  \subsection{Descripción detallada}
+  
+  -Al abrir la aplicacion por primera vez ésta le pedira que realice una pequeña configuracion inicial necesaria para poder empezar a usar la aplicacion.
+  Uno de los datos mas importantes que debera ingresar sera una direccion de correo electronico a la cual le llegara el mail de notificacion.
+  
+  -Luego de haber realizado la configuracion inicial exitosamente el usuario podra visualizar la pantalla principal de la aplicacion en donde dispondra de 3 opciones: RUN, OPTIONS y ABOUT.
+  
+  RUN: En esta opcion se podra indicar si la aplicacion esta "Activada" o "Desactivada", en caso de estar activada la aplicacion empezara a trabajar aproximadamente 20 segundos despues de cerrar la aplicacion (dependiendo de la configuracion del usuario).
+  
+  OPTIONS: Aqui se podra cambiar la confinguracion de la aplicacion.
+  
+  ABOUT: La informacion sobre la aplicacacion y sus desarrolladores.
+  
+  -Al haber activado la aplicacion y haberla cerrado, habra un tiempo de espera de aproximadamente 20 segundos que sirve para dar tiempo al usuario de dejar el celular en un lugar especifico donde no se vaya a mover.
+  
+  -Ya trabajando la aplicacion esta comenzara a sonar aproximadamente 15 segundos despues de haber sentido movimiento (acelerometro), en este tiempo la aplicacion le pedira que ingrese un codigo para evitar que se emita el sonido de alerta y q se envie el mail de notificacion, esto en caso de que el usuario haya movido el celular por error.
+  
+  -En caso de haberse emitido el sonido de alerta en ese momento se tomaran las coordenadas de el lugar en el que este el celular y se tomara la(s) fotografia(s).
+  
+  -Luego de esto se enviara la notificacion por mail al correo especificado en la configuracion inicial de aplicacion, en este correo se enviaran las coordenadas del celular obtenidas anteriormente, asi tambien como la o las fotografias capturadas.
+  
+  
+  
+   \subsection{Caracteristicas Generales}
+   Las caracteristicas de la aplicacion son:
+   
+   \begin{itemize}
+   
+   \item Plataforma .- Android.
+   \item Punto dos.
+   \item Plataforma .- Android
+   \item Lenguaje .- Java.
+   \item Version No. 1
+   \item Uso de camara dispositivo Android
+   \item GPS Global Positioning System
+   \item Activacion mediante el Acelerometro
+   \item Programas a utilizar .- Eclipse IDE for Java developers
+   \item Android SDK (android 2.1)
+   \item Idioma{\tiny } Espanol
+   
+   
+   \end{itemize}
+
+
+\end{document}
