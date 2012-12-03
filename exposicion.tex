@@ -1,10 +1,6 @@
 \documentclass{beamer}
 \usepackage[spanish]{babel} % Para separar correctamente las palabras
-<<<<<<< HEAD
 \usepackage[utf8]{inputenc} % Este paquete permite poner acentos y e?es usando codificaci?n utf-8
-=======
-\usepackage[utf8]{inputenc} % Este paquete permite poner acentos y eï¿½es usando codificaciï¿½n utf-8
->>>>>>> a54fe80f77dd85de8fea5044faa677f3fbce656a
 
 \usetheme{Berlin}
 \title{MaxSec APP}
@@ -25,11 +21,7 @@
                       Escuela Superior Politecnica del litoral \\
                   \end{center}
      \end{frame}
-<<<<<<< HEAD
 
-=======
-	 
->>>>>>> a54fe80f77dd85de8fea5044faa677f3fbce656a
   \begin{frame}
     
    
@@ -37,22 +29,13 @@
     \scriptsize
     
     \begin{center}
-<<<<<<< HEAD
        \textcolor{blue}{APLICACION PARA ANDROID \\}
-=======
-      APLICACION PARA ANDROID \\
->>>>>>> a54fe80f77dd85de8fea5044faa677f3fbce656a
       MaxSec App \\
     \end{center}
     
     
-<<<<<<< HEAD
-    MaxSec APP ,es una aplicacion antirrobo para tu smartphone que incluye una alarma. Cuando alguien intente robar tu celular, la aplicación al detectar el movimiento del movil,
-pedira una contraseña que tu habras definido y que en caso de no ser ingresada correctamente en un corto lapso de tiempo, comenzara a sonar una ruidosa alarma y
-=======
     MaxSec APP ,es una aplicacion antirrobo para tu smartphone que incluye una alarma. Cuando alguien intente robar tu celular, la aplicaciÃ³n al detectar el movimiento del movil,
 pedira una contraseÃ±a que tu habras definido y que en caso de no ser ingresada correctamente en un corto lapso de tiempo, comenzara a sonar una ruidosa alarma y
->>>>>>> a54fe80f77dd85de8fea5044faa677f3fbce656a
 enviara la posicion geografica adjunto una fotografia de el lugar o persona donde ocurre el incidente (robo), y tambien un correo electronico a un familiar indicando lo sucedido
     
   \end{frame}
@@ -60,11 +43,7 @@ enviara la posicion geografica adjunto una fotografia de el lugar o persona dond
    \begin{frame}
       
        \begin{center}
-<<<<<<< HEAD
         \textcolor{blue}{OBJETIVOS\\}
-=======
-        OBJETIVOS\\
->>>>>>> a54fe80f77dd85de8fea5044faa677f3fbce656a
        \end{center}
 
      \begin{enumerate}
@@ -72,19 +51,12 @@ enviara la posicion geografica adjunto una fotografia de el lugar o persona dond
       \item<1-> Evitar el robo de tu dispositivo mediante una alarma sensible al movimiento
       \item<1-> Llamar la atencion a la gente de alrededor en caso que suceda
       \end{enumerate}
-<<<<<<< HEAD
      \end{frame}   
 
       \scriptsize
     \begin{frame}
       \begin{center}
        \textcolor{blue}{ CARACTERISTICAS GENERALES\\}
-=======
-      \scriptsize
-      
-      \begin{center}
-        CARACTERISTICAS GENERALES\\
->>>>>>> a54fe80f77dd85de8fea5044faa677f3fbce656a
       \end{center}
       
       \begin{enumerate}
@@ -102,22 +74,21 @@ enviara la posicion geografica adjunto una fotografia de el lugar o persona dond
       
     \end{frame}
   
-<<<<<<< HEAD
   \begin{frame}
        \scriptsize
         \begin{center}
                  \textcolor{red}{IMPLEMENTACION DE LA APLICACION\\}
          \end{center}
           \textcolor{blue}{1.}
-          El ususrio deberá abrir su aplicacón siempre y cuando crea que dejará solo su dispositivo.
+          Podemos observar la pantalla principal de nuestra aplicaciÃ³n con los botones indicados en la imagen. En caso de no estar encendido el gps se mostrarÃ¡ un mensaje para que el usuario lo encienda. Despues de encendido tenemos que esperar que el gps localice nuestra posiciÃ³n antes de presionar el boton run.
            \begin{center}
-                  \includegraphics[height=0.3\textheight]{C:/Users/Ricardo/Documents/beamer/dispositivo} 
+                  \includegraphics[height=0.3\textheight]{C:/Users/Ricardo/Documents/GitHub/exposicionFinal/max1} 
          \end{center}
 
         \textcolor{blue}{2.}
-          El dispositivo dejará un margen de 15 segundos a partir de iniciar la aplicación para poder proceder con su funcionabilidad.
+         Al presionar el boton Run, este lanza otra ventana con el mail por defecto al que la  aplicaciÃ³n mandarÃ¡ el correo, y su password  para que no se ejecute ninguna alarma.
            \begin{center}
-                  \includegraphics[height=0.4\textheight]{C:/Users/Ricardo/Documents/beamer/acelerometro} 
+                 \includegraphics[height=0.25\textheight]{C:/Users/Ricardo/Documents/GitHub/exposicionFinal/max2} 
          \end{center}
   \end{frame}
 
@@ -125,35 +96,34 @@ enviara la posicion geografica adjunto una fotografia de el lugar o persona dond
        \scriptsize
         
           \textcolor{blue}{3.}
-          En el momento que alguien desee hacer uso de este dispositivo mientras corre la aplicación, se lanzará una imagen de desbloqueo.
+       Al presionar el boton de encendido, la aplicaciÃ³n se minimiza esperando un lapso de tiempo para que el usuario pueda dejar inmovil el dispositivo.
            \begin{center}
-                  \includegraphics[height=0.3\textheight]{C:/Users/Ricardo/Documents/beamer/desbloqueo} 
+                 \includegraphics[height=0.3\textheight]{C:/Users/Ricardo/Documents/GitHub/exposicionFinal/max4} 
          \end{center}
 
         \textcolor{blue}{4.}
-         Al encontrarse inactivo el celular durante 3 segundos o colocar mal su código de desbloqueo, este lanzará una alarma.
+         El dispositivo al sentir algÃºn movimiento lanza una ventana de desbloqueo la cual se encargarÃ¡ de tomar una foto y usar el gps para enviar al correo deseado (todo esto en segundo plano), siempre y cuando el cÃ³digo sea incorrecto la aplicaciÃ³n tomarÃ¡ fotos y seguirÃ¡ bloqueada hasta que se digite correctamente la contraseÃ±a.
            \begin{center}
-                  \includegraphics[height=0.4\textheight]{C:/Users/Ricardo/Documents/beamer/alarma} 
+                   \includegraphics[height=0.3\textheight]{C:/Users/Ricardo/Documents/GitHub/exposicionFinal/max3} 
          \end{center}
   \end{frame}
     
 \begin{frame}
        \scriptsize
    \textcolor{blue}{5.}
-        Seguido de tomar una foto del lugar en donde se efectua, como tambien capturando el lugar por medio del gps.
+        .Aqui podemos observar el correo que se enviÃ³ al mail configurado, en el cual se muestra el archivo de la imagen, la longitud, la latitud y la calle en la que fue tomada la foto.
             \begin{center}
-                \includegraphics[height=0.3\textheight]{C:/Users/Ricardo/Documents/beamer/camara}\ \ \ \
- \includegraphics[height=0.3\textheight]{C:/Users/Ricardo/Documents/beamer/gps}
+                 \includegraphics[height=0.3\textheight]{C:/Users/Ricardo/Documents/GitHub/exposicionFinal/max6} \ \ \ \
+ \includegraphics[height=0.3\textheight]{C:/Users/Ricardo/Documents/GitHub/exposicionFinal/max7} 
             \end{center}
-
-        \textcolor{blue}{6.}
-        Finalizando con el envio de esta información a algun correo deseado por el usario anteriormente.
+      
+ \textcolor{blue}{6.}
+        En esta pantalla se puede configurar a que correo desea el usuario que se envie la imagen, tambiÃ©n puede cambiar el cÃ³digo siempre y cuando sepa cual fue el anterior.
            \begin{center}
-                  \includegraphics[height=0.4\textheight]{C:/Users/Ricardo/Documents/beamer/correo} 
+                 \includegraphics[height=0.3\textheight]{C:/Users/Ricardo/Documents/GitHub/exposicionFinal/max5} 
          \end{center}
   \end{frame}
-=======
->>>>>>> a54fe80f77dd85de8fea5044faa677f3fbce656a
     
   
 \end{document}
+

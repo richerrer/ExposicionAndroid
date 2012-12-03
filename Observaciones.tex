@@ -1,0 +1,56 @@
+\documentclass[12pt,letterpaper]{article}
+
+\usepackage[right=2cm,left=3cm,top=2cm,bottom=2cm,headsep=0cm,footskip=0.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage[spanish]{babel} % Para separar correctamente las palabras
+\usepackage[utf8]{inputenc} % Este paquete permite poner acentos y e?es usando codificaci?n utf-8
+
+\begin{document}
+
+
+
+\section{Título del proyecto: MaxSec App}
+\subsection{Autores}
+
+* Mira Rodríguez Raúl Alberto
+
+* Romero Triviño Jose Andrés
+
+* Maya Herrera Ricardo David
+
+\subsection{Observaciones}
+  A lo largo de toda la realización de nuestro proyecto nos hemos encontrado con ciertas dificultades que queremos hacer mención en este documento las cuales se las mencionaremos a continuación:
+
+  
+   \begin{itemize}
+   \item Sensor de movimiento:
+   
+   MaxSec cuenta con un sensor el cual nos permite saber cuando alguien hace uso de nuestro dispositivo despues de un cierto momento. Al realizar el código para la funcionalidad del sensor, android nos permite obtener las coordenadas x,y,z de como se encuentra el estado del dispositivo en ese momento. Para poder saber cuando se produce el movimiento, lo que hacemos es sumar estas coordenadas y el valor expresarlo en valor absoluto para poder así compararlo a un número máximo establecido por nosotros, siendo así que si el numero sumado por las coordenadas es mayor que el número establecido por nosotros es debido a que se produjo algún movimieno. El problema radica en que hay momentos en que sin mover el dispositivo sobrepasa nuestro valor máximo.
+Creemos nostros que esto a veces se dá debido al lugar en donde dejamos nuestro dispositivo, ya sea en algún lugar empinado o con relieve.
+   
+   \item Captura de la Cámara Fotográfica:
+   
+   Al momento de poder capturar la imagen despues de haber ingresado erroneamente el código, lo que podemos visualizar es una pantalla de fondo durante un lapso de 2 seg. Este es el momento en el cual se toma la foto, en la cual android nos permite realizarlo de esta manera y no con la cámara por defecto, siempre y cuando creemos una ventana para saber de donde sacar la imagen. Para que la persona no sepa que se produce esto en ese momento, hicimos que esta ventana sea tan pequeña que es casi invisible al ojo humano.
+   
+   \item Uso del GPS:
+   
+  Al momento de abrir nuestra aplicación, esta detecta si el gps de nuestro dispositivo está activo, en caso de no encender el gps, la longitud, latitud y dirección de donde fue tomada la fotografía aparecera como null en el correo.
+Otro inconveniente es el hecho de que muchas veces al identificar nuestra posición, el objeto que nos provee android para convertir los parámetros longitud y latitud en una dirección no los reconoce, siendo así que en la dirección nos envia null.
+   
+   \item Notificación por correo electrónico:
+
+  El lapso que existe desde el momento en que se toma la fotografía y el momento en que es enviada es de 10 segundos. Esto lo himos de esta manera para que no exista ningún cruce entre la alarma y el momento en que se envía el correo, dando tiempo durante esos 10 segundos para que la alarma pueda sonar sin ningun problema.
+   \end{itemize}
+   
+   
+  \subsection{Conclusiones}
+  
+ Creemos que nuestra aplicación es funcional, sabiendo que existen ciertas correcciones y arreglos que se deberían hacer una vez sepamos como solucionarlas, creyendo que no son inconvenientes para aquellas personas que deseen utilizarla para poder evitar esos malos ratos que muchas veces son nuestros propios amigos los que nos hacen pasar.
+  
+  
+   \subsection{Experiencias del desarrollo}
+Sin lugar a dudas nos alegramos de poder haber podido conocer de una u otra manera esta plataforma y este sin número de APIs que nos ofrece Android. Muchos estamos acostumbrados a usarlas pero creo que muy pocos se preocupan de como funcionan, ahora se puede decir que tenemos una visión mas amplia de lo que es el mundo de la programación y sobre todo de como se maneja Android, y por supuesto dándonos a entender de que se necesita conocimiento sobre lo que es la programación orientada a objetos, y que a pesar de que mucho código que nos sirve para nuestras aplicaciones se encuentra en la web, de nada vale si no tenemos el conocimiento para poder implementarlo según nuestras necesidades.
+
+
+\end{document}
+
